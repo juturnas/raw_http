@@ -4,5 +4,5 @@ require "./message"
 require "./roundtrip"
 
 module RawHTTP
-  VERSION = "0.1.0"
+  VERSION = "0.1.1"
 end
