@@ -1,0 +1,9 @@
+name: raw_http
+version: 0.1.0
+
+authors:
+  - Tyler Bender <juturnas@gmail.com>
+
+crystal: 1.7.0
+
+license: MIT
