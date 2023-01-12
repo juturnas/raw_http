@@ -1,6 +1,6 @@
 require "./spec_helper"
 
-describe RawHttp do
+describe RawHTTP do
   # TODO: Write tests
 
   it "works" do
