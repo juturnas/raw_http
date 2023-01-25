@@ -58,8 +58,12 @@ module RawHTTP
         io << @body
       when Array
         @body.as(Array(String)).each do |chunk|
+          io << chunk.bytesize.to_s(16)
+          io << "\r\n"
           io << chunk
+          io << "\r\n"
         end
+        io << "0\r\n\r\n"
       end
     end
 
